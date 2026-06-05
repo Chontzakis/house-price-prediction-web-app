@@ -98,6 +98,5 @@ docker run --rm -p 8000:8000 house-price-system
 ```
 
 ## Notes
-- `src/api/main.py` loads the model from `models/model.pkl` at startup.
 - The frontend currently posts requests to the internal service name `api`, so Docker Compose is the simplest way to run both services together.
 - If you want to use local mode without Docker, update the API URL in `frontend/app.py` to the local host address.
