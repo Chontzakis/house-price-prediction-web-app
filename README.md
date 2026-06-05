@@ -61,7 +61,15 @@ python3 -m uvicorn src.api.main:app --reload
 streamlit run frontend/app.py    
 ```
 
+6. If the end user want to change something in the training procedure then that can happen inside the 
+
 > Note: the frontend is currently configured to call the API at `http://api:8000/predict`, which works directly in Docker Compose. For direct local execution, update the API URL in `frontend/app.py` to `http://localhost:8501` or run via Docker Compose.
+
+> Note: If the end user want to change something in the training procedure then that can happen inside the models/train.py. The command that executes this procedure is 
+
+'''bash
+python3 -m src.models.train
+'''
 
 ## Docker Compose (Recommended)
 
