@@ -55,7 +55,7 @@ pip install -r requirements.txt
 python3 -m uvicorn src.api.main:app --reload
 ```
 
-5. Start the frontend
+5. Start the frontend (from a new terminal window)
 
 ```bash
 streamlit run frontend/app.py    
