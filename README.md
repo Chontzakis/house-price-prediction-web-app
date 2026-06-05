@@ -67,9 +67,9 @@ streamlit run frontend/app.py
 
 > Note: If the end user want to change something in the training procedure then that can happen inside the models/train.py. The command that executes this procedure is 
 
-'''bash
+```bash
 python3 -m src.models.train
-'''
+```
 
 ## Docker Compose (Recommended)
 
